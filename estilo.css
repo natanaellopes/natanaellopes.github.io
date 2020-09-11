@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+#logo a {
+    font-family: 'Lexend Peta', sans-serif;
+    text-transform: uppercase;
+}
+
+header {
+    height: 80px;
+    background: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+#banner {
+    background-image: url(img/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 300px 5%;
+    clear: both;
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 9vw;
+    margin-bottom: 40px;
+}
+
+#slogan {
+    font-size: 3vw;
+    margin-bottom: 100px;
+}
+
+#button {
+    background: #c9992d;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 4px;
+    border: 1px solid #7c5e1b;
+}
+
+#button:hover {
+    background: #fff;
+    border: 1px solid #c9992d;
+    color: #c9992d;
+}
+
+
+#video {
+    padding: 5%;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+iframe {
+    margin-bottom: 40px;
+}
+
+.etapas-img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+#desenvolvimento {
+    padding: 5%;
+    background: #eee;
+    overflow: hidden;
+}
+
+.etapas {
+    margin-bottom: 50px;
+}
+
+.sub-titulo {
+    text-align: center;
+}
+
+
+#logo {
+    float: left;
+    padding: 0 5%;
+    line-height: 80px;
+    font-size: 36px;
+    font-weight: bold;
+    width: 30%;
+}
+
+#logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+#logo a:hover {
+    color: #aaa;
+}
+
+nav {
+    float: right;
+    text-align: right;
+    width: 70%;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-item {
+    float: right;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 30px;
+    display: block;
+    height: 80px;
+    line-height: 80px;
+}
+
+.nav-link:hover {
+    background: #444;
+}
+
+footer {
+    padding: 5%;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+#video iframe {
+    width: 40%;
+    float: left;
+}
+
+#video-texto {
+    width: 50%;
+    float: right;
+}
+
+#video-texto h2 {
+    margin-bottom: 20px;
+}
+
+.etapas {
+    width: 25%;
+    float: left;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#desenvolvimento h2 {
+    text-align: center;
+}
+
+.sub-titulo {
+    color: #AAA;
+}
+
+
+#autor {
+    padding: 5%;
+    overflow: hidden;
+}
+
+#autor-texto {
+    float: left;
+}
+
+#autor img {
+    float: right
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    #logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    #banner {
+        height: 40%;
+        padding: 60px 5%;
+        text-align: center;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    #slogan {
+        text-shadow: 0 2px 4px black;
+        color: white;
+    }
+
+    #video iframe,
+    #video-texto {
+        width: 100%;
+    }
+
+    #video-texto {
+        margin-bottom: 40px;
+    }
+
+    #video-texto h2 {
+        text-align: center;
+    }
+    
+    .etapas {
+        width: 50%;
+    }
+
+    #autor-texto {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #autor img {
+        border-radius: 100%;
+        width: 200px;
+        height: 200px;
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+
+}
