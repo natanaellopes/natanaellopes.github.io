@@ -8,6 +8,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+
 h1,
 h2,
 h3,
@@ -36,8 +37,10 @@ header {
 }
 
 h1 {
-    font-size: 9vw;
+    font-size: 8vw;
     margin-bottom: 40px;
+    background: black;
+    color: white;
 }
 
 #slogan {
